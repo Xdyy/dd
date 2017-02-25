@@ -1,0 +1,704 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><!--响应式视口声明-->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/xenon-core.css">
+<link rel="stylesheet" href="css/dataTables.bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/global.css"><!--全站标签默认样式表-->
+<link rel="stylesheet" type="text/css" href="css/grid.css"><!--栅格化样式表-->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"><!--外部字体样式表-->
+<link rel="stylesheet" type="text/css" href="css/layout.css"><!--自定义导航条样式表-->
+<link rel="stylesheet" type="text/css" href="css/mass.css" ><!--我的样式表-->
+<link rel="stylesheet" type="text/css" href="css/record.css" >
+<link rel="stylesheet" type="text/css" href="css/recharge.css" >
+<link rel="stylesheet" type="text/css" href="css/particulars.css" >
+<link rel="stylesheet" type="text/css" href="css/consume.css" >
+<link rel="stylesheet" type="text/css" href="css/media.css"><!--媒体查询样式表-->
+<script src="js/jquery.min.js"></script><!--JQ库文件-->
+
+</head>
+
+<body>
+	
+	<div class="fixed-wrap">
+        <div class="top">
+            
+             <div class="user right-links">
+                
+                <a href="#edit-profile">
+                    <i class="fa-envelope"></i>
+                    短信：26
+                </a>
+                <a href="#edit-profile">
+                    <i class="fa-envelope"></i>
+                    充值
+                </a>
+                
+                <a href="#" class="user-list">
+                    <span>
+                        <i class="fa-user"></i>
+                        Arlind Nushi
+                        <i class="fa-angle-down"></i>
+                    </span>
+                </a>
+                
+                <ul class="user-menu">
+                    <li class="">
+                        <a href="#">
+                            <i class="fa-edit"></i>
+                            New Post
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-wrench"></i>
+                            Settings
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-user"></i>
+                            Profile
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-info"></i>
+                            Help
+                        </a>
+                    </li>
+                    <li class="last">
+                        <a href="">
+                            <i class="fa-lock"></i>
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        
+        <div class="header">
+            <div class="logo" name="牛百发"></div>
+            <div class="nav">
+                <ul>
+                    <li><a class="right" href="index.html"><span>短信群发</span></a></li>
+                    <li><a href="recharge.html"><span>短信充值</span></a></li>
+                    <li><a href="#"><span>常见问题</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main"> 
+    	
+        <div class="main-menu ">
+        	<h5>导航</h5>
+            <ul class="menu">
+                <li class="has-sub li-im">
+                    <a href="index.html">
+                        <i class="fa-wrench"></i>
+                         <span>号码群发</span>
+                    </a>
+                    <ul>
+                    </ul>
+                </li>
+                
+                <li class="has-sub li-im">
+                    <a href="#">
+                        <i class="fa-wrench"></i>
+                         <span>短信群发记录</span>
+                    </a>
+                    
+                    <ul>
+                        
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="main-conter">
+        
+            <div class="site">
+                    <h5>位置：</h5>
+                    <ul>
+                        <li><span>号码群发</span></li>
+                        <li><span>号码群发</span></li>
+                    </ul>
+                </div>
+                
+            <div class="conter-box">  
+            
+                    
+                <div class="panel mypanel">
+                
+                    <div class="panel-heading record-heading">
+                        <h3 class="panel-title ">群发记录</h3>
+                        
+                        <ul class="i-record">
+                            <li name="营销活动（个）" data-hover="5"><i class="fa-list" aria-hidden="true"></i></li>
+                            <li name="营销人数（人）" data-hover="2"><i class="fa-users" aria-hidden="true"></i></li>
+                            <li name="打开链接（次）" data-hover="0"><i class="fa-link" aria-hidden="true"></i></li>
+                        </ul>
+                    </div>
+                    
+                	<div class="panel-body">
+                    
+                    <script type="text/javascript">
+                    $(document).ready(function($)
+                    {
+                        $("#example-1").dataTable({
+                            aLengthMenu: [
+                                [15, 5], [15,5]
+                            ]
+                        });
+                    });
+                    </script>
+                    <table id="example-1" class="table table-record table-striped table-bordered" cellspacing="0" width="100%">
+                    
+                        <thead style="display:none;">
+                            <tr>
+                                <th>Name</th>
+                            </tr>
+                        </thead>
+                    
+                        <tbody>
+                            
+                            <tr>
+                                <td>
+                                
+                                	<div class="record">
+                                    	<h6><img src="images/sms.png" ><em>短信（带链接）</em>状态：<span>发送完成</span></h6>
+                                        <div class="sms-body">
+                                        	<p>
+                                                【<b>试用</b>】
+                                                <span>uhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfu</span>&nbsp;
+                                                <a  target="_blank">h5d.cn/J</a>&nbsp;
+                                                退订回N
+                                            </p>
+                                            
+                                        </div>
+                                        <div class="lrAlign">
+                                            <a class="ds-bar-look"><i class="fa-newspaper-o"></i><span>查看活动</span></a>
+                                            <a class="ds-bar-again"><i class="fa-share"></i><span>再次营销</span></a>
+                                        </div>
+                                        <div class="ac_name"><span>我的活动</span></div>
+                                        <div class="other-record"> 
+                                            <span>创建时间：2016-05-31 16:20:21</span>
+                                            <span>发送时间： </span>
+                                            <span>营销人数：1人</span>
+                                            <span>链接打开：0次</span>
+                                        </div>
+                                        
+                                        
+                                        
+                                        
+                                    </div>
+                                    
+                                
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                
+                                	<div class="record">
+                                    	<h6><img src="images/sms.png" ><em>短信（带链接）</em>状态：<span>发送完成</span></h6>
+                                        <div class="sms-body">
+                                        	<p>
+                                                【<b>试用</b>】
+                                                <span>uhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfu</span>&nbsp;
+                                                <a  target="_blank">h5d.cn/J</a>&nbsp;
+                                                退订回N
+                                            </p>
+                                            
+                                        </div>
+                                        <div class="lrAlign">
+                                            <a class="ds-bar-look"><i class="fa-newspaper-o"></i><span>查看活动</span></a>
+                                            <a class="ds-bar-again"><i class="fa-share"></i><span>再次营销</span></a>
+                                        </div>
+                                        <div class="ac_name"><span>我的活动</span></div>
+                                        <div class="other-record"> 
+                                            <span>创建时间：2016-05-31 16:20:21</span>
+                                            <span>发送时间： </span>
+                                            <span>营销人数：1人</span>
+                                            <span>链接打开：0次</span>
+                                        </div>
+                                        
+                                        
+                                        
+                                        
+                                    </div>
+                                    
+                                
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                
+                                	<div class="record">
+                                    	<h6><img src="images/sms.png" ><em>短信（带链接）</em>状态：<span>发送完成</span></h6>
+                                        <div class="sms-body">
+                                        	<p>
+                                                【<b>试用</b>】
+                                                <span>uhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfu</span>&nbsp;
+                                                <a  target="_blank">h5d.cn/J</a>&nbsp;
+                                                退订回N
+                                            </p>
+                                            
+                                        </div>
+                                        <div class="lrAlign">
+                                            <a class="ds-bar-look"><i class="fa-newspaper-o"></i><span>查看活动</span></a>
+                                            <a class="ds-bar-again"><i class="fa-share"></i><span>再次营销</span></a>
+                                        </div>
+                                        <div class="ac_name"><span>我的活动</span></div>
+                                        <div class="other-record"> 
+                                            <span>创建时间：2016-05-31 16:20:21</span>
+                                            <span>发送时间： </span>
+                                            <span>营销人数：1人</span>
+                                            <span>链接打开：0次</span>
+                                        </div>
+                                        
+                                        
+                                        
+                                        
+                                    </div>
+                                    
+                                
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                
+                                	<div class="record">
+                                    	<h6><img src="images/sms.png" ><em>短信（带链接）</em>状态：<span>发送完成</span></h6>
+                                        <div class="sms-body">
+                                        	<p>
+                                                【<b>试用</b>】
+                                                <span>a'auhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfu</span>&nbsp;
+                                                <a  target="_blank">h5d.cn/J</a>&nbsp;
+                                                退订回N
+                                            </p>
+                                            
+                                        </div>
+                                        <div class="lrAlign">
+                                            <a class="ds-bar-look" href="particulars.html"><i class="fa-newspaper-o"></i><span>查看活动</span></a>
+                                            <a class="ds-bar-again"><i class="fa-share"></i><span>再次营销</span></a>
+                                        </div>
+                                        <div class="ac_name"><span>我的活动</span></div>
+                                        <div class="other-record"> 
+                                            <span>创建时间：2016-05-31 16:20:21</span>
+                                            <span>发送时间： </span>
+                                            <span>营销人数：1人</span>
+                                            <span>链接打开：0次</span>
+                                        </div>
+                                        
+                                        
+                                        
+                                        
+                                    </div>
+                                    
+                                
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                
+                                	<div class="record">
+                                    	<h6><img src="images/sms.png" ><em>短信（带链接）</em>状态：<span>发送完成</span></h6>
+                                        <div class="sms-body">
+                                        	<p>
+                                                【<b>试用</b>】
+                                                <span>uhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfu</span>&nbsp;
+                                                <a  target="_blank">h5d.cn/J</a>&nbsp;
+                                                退订回N
+                                            </p>
+                                            
+                                        </div>
+                                        <div class="lrAlign">
+                                            <a class="ds-bar-look"><i class="fa-newspaper-o"></i><span>查看活动</span></a>
+                                            <a class="ds-bar-again"><i class="fa-share"></i><span>再次营销</span></a>
+                                        </div>
+                                        <div class="ac_name"><span>我的活动</span></div>
+                                        <div class="other-record"> 
+                                            <span>创建时间：2016-05-31 16:20:21</span>
+                                            <span>发送时间： </span>
+                                            <span>营销人数：1人</span>
+                                            <span>链接打开：0次</span>
+                                        </div>
+                                        
+                                        
+                                        
+                                        
+                                    </div>
+                                
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                
+                                	<div class="record">
+                                    	<h6><img src="images/sms.png" ><em>短信（带链接）</em>状态：<span>发送完成</span></h6>
+                                        <div class="sms-body">
+                                        	<p>
+                                                【<b>试用</b>】
+                                                <span>uhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfu</span>&nbsp;
+                                                <a  target="_blank">h5d.cn/J</a>&nbsp;
+                                                退订回N
+                                            </p>
+                                            
+                                        </div>
+                                        <div class="lrAlign">
+                                            <a class="ds-bar-look"><i class="fa-newspaper-o"></i><span>查看活动</span></a>
+                                            <a class="ds-bar-again"><i class="fa-share"></i><span>再次营销</span></a>
+                                        </div>
+                                        <div class="ac_name"><span>我的活动</span></div>
+                                        <div class="other-record"> 
+                                            <span>创建时间：2016-05-31 16:20:21</span>
+                                            <span>发送时间： </span>
+                                            <span>营销人数：1人</span>
+                                            <span>链接打开：0次</span>
+                                        </div>
+                                        
+                                        
+                                        
+                                        
+                                    </div>
+                                
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                
+                                	<div class="record">
+                                    	<h6><img src="images/ptsms.png" ><em>短信（文本）</em>状态：<span class="span-color">正在编辑</span></h6>
+                                        <div class="sms-body">
+                                        	<p>
+                                                【<b>试用</b>】
+                                                <span>可是大家发贺卡速度和愤慨和骷发挥示范咯手工恢复计划时间髅法师付款就开始发动机啊发贺卡讲噶似的就发生纠纷哈说的话jfk和军事对抗设计付好款啦速度发货仨房好看沙发和卡收费卡卡开发撒的结合付款就撒谎付款计划开发垃圾</span>&nbsp;
+                                                退订回N
+                                            </p>
+                                            
+                                        </div>
+                                        <div class="lrAlign">
+                                            <a class="ds-bar-edit"><i class="fa-pencil"></i><span>编辑活动</span></a>
+                                            <a class="ds-bar-del"><i class="fa-trash-o"></i><span>放弃活动</span></a>
+                                        </div>
+                                        <div class="ac_name"><span>我的活动</span></div>
+                                        <div class="other-record"> 
+                                            <span>创建时间：2016-05-31 16:20:21</span>
+                                            <span>发送时间： </span>
+                                            <span>营销人数：1人</span>
+                                            <span>链接打开：0次</span>
+                                        </div>
+                                        
+                                        
+                                        
+                                        
+                                    </div>
+                                    
+                                
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                    
+                                	<div class="record">
+                                    	<h6><img src="images/ptsms.png"><em>短信（文本）</em>状态：<span class="span-color">正在编辑</span></h6>
+                                        <div class="sms-body"><p>
+                                                【<b>一号店</b>】
+                                                <span>uhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfu</span>&nbsp;
+                                                退订回N
+                                            </p>
+                                        </div>
+                                        <div class="lrAlign">
+                                            <a class="ds-bar-edit"><i class="fa-pencil"></i><span>编辑活动</span></a>
+                                            <a class="ds-bar-del"><i class="fa-trash-o"></i><span>放弃活动</span></a>
+                                        </div>
+                                        <div class="ac_name"><span>我的活动</span></div>
+                                        <div class="other-record">
+                                            <span>创建时间：2016-05-31 16:20:21</span>
+                                            <span>发送时间：</span>
+                                            <span>营销人数：1人</span>
+                                            <span>链接打开：0次</span>
+                                        </div>
+                                    </div>
+                                    
+                                </td>
+                            </tr>
+                            
+                                	
+                            <tr>
+                                <td>
+                                    
+                                	<div class="record">
+                                    	<h6><img src="images/sms.png"><em>短信（带链接）</em>状态：<span class="span-color">正在编辑</span></h6>
+                                        <div class="sms-body">
+                                        	<p>
+                                                【<b>一号店</b>】
+                                                <span>uhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfu</span>&nbsp;
+                                                <a  target="_blank">h5d.cn/J</a>&nbsp;
+                                                退订回N
+                                            </p>
+                                            
+                                        </div>
+                                        <div class="lrAlign">
+                                            <a class="ds-bar-edit"><i class="fa-pencil"></i><span>编辑活动</span></a>
+                                            <a class="ds-bar-del"><i class="fa-trash-o"></i><span>放弃活动</span></a>
+                                        </div>
+                                        <div class="ac_name"><span>我的活动</span></div>
+                                        <div class="other-record">
+                                            <span>创建时间：2016-05-31 16:20:21</span>
+                                            <span>发送时间：</span>
+                                            <span>营销人数：1人</span>
+                                            <span>链接打开：0次</span>
+                                        </div>
+                                    </div>
+                                    
+                                </td>
+                            </tr>
+                            
+                            
+                            <tr>
+                                <td>
+                                    
+                                	<div class="record">
+                                    	<h6><img src="images/sms.png"><em>短信（带链接）</em>状态：<span class="span-color">正在编辑</span></h6>
+                                        <div class="sms-body">
+                                        	<p>
+                                                【<b>一号店</b>】
+                                                <span>uhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfu</span>&nbsp;
+                                                <a  target="_blank">h5d.cn/J</a>&nbsp;
+                                                退订回N
+                                            </p>
+                                            
+                                        </div>
+                                        <div class="lrAlign">
+                                            <a class="ds-bar-edit"><i class="fa-pencil"></i><span>编辑活动</span></a>
+                                            <a class="ds-bar-del"><i class="fa-trash-o"></i><span>放弃活动</span></a>
+                                        </div>
+                                        <div class="ac_name"><span>我的活动</span></div>
+                                        <div class="other-record">
+                                            <span>创建时间：2016-05-31 16:20:21</span>
+                                            <span>发送时间：</span>
+                                            <span>营销人数：1人</span>
+                                            <span>链接打开：0次</span>
+                                        </div>
+                                    </div>
+                                    
+                                </td>
+                            </tr>
+                             
+                            <tr>
+                                <td>
+                                    
+                                	<div class="record">
+                                    	<h6><img src="images/ptsms.png"><em>短信（文本）</em>状态：<span class="span-color">正在编辑</span></h6>
+                                        <div class="sms-body"><p>
+                                                【<b>一号店</b>】
+                                                <span>uhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfu</span>&nbsp;
+                                                退订回N
+                                            </p>
+                                        </div>
+                                        <div class="lrAlign">
+                                            <a class="ds-bar-edit"><i class="fa-pencil"></i><span>编辑活动</span></a>
+                                            <a class="ds-bar-del"><i class="fa-trash-o"></i><span>放弃活动</span></a>
+                                        </div>
+                                        <div class="ac_name"><span>我的活动</span></div>
+                                        <div class="other-record">
+                                            <span>创建时间：2016-05-31 16:20:21</span>
+                                            <span>发送时间：</span>
+                                            <span>营销人数：1人</span>
+                                            <span>链接打开：0次</span>
+                                        </div>
+                                    </div>
+                                    
+                                </td>
+                            </tr>
+                            
+                                	
+                            <tr>
+                                <td>
+                                    
+                                	<div class="record">
+                                    	<h6><img src="images/sms.png"><em>短信（带链接）</em>状态：<span class="span-color">正在编辑</span></h6>
+                                        <div class="sms-body">
+                                        	<p>
+                                                【<b>一号店</b>】
+                                                <span>uhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfu</span>&nbsp;
+                                                <a  target="_blank">h5d.cn/J</a>&nbsp;
+                                                退订回N
+                                            </p>
+                                            
+                                        </div>
+                                        <div class="lrAlign">
+                                            <a class="ds-bar-edit"><i class="fa-pencil"></i><span>编辑活动</span></a>
+                                            <a class="ds-bar-del"><i class="fa-trash-o"></i><span>放弃活动</span></a>
+                                        </div>
+                                        <div class="ac_name"><span>我的活动</span></div>
+                                        <div class="other-record">
+                                            <span>创建时间：2016-05-31 16:20:21</span>
+                                            <span>发送时间：</span>
+                                            <span>营销人数：1人</span>
+                                            <span>链接打开：0次</span>
+                                        </div>
+                                    </div>
+                                    
+                                </td>
+                            </tr>
+                            
+                            
+                            <tr>
+                                <td>
+                                    
+                                	<div class="record">
+                                    	<h6><img src="images/sms.png"><em>短信（带链接）</em>状态：<span class="span-color">正在编辑</span></h6>
+                                        <div class="sms-body">
+                                        	<p>
+                                                【<b>一号店</b>】
+                                                <span>uhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfuuhfsdkdjhifdskfsdkfu</span>&nbsp;
+                                                <a  target="_blank">h5d.cn/J</a>&nbsp;
+                                                退订回N
+                                            </p>
+                                            
+                                        </div>
+                                        <div class="lrAlign">
+                                            <a class="ds-bar-edit"><i class="fa-pencil"></i><span>编辑活动</span></a>
+                                            <a class="ds-bar-del"><i class="fa-trash-o"></i><span>放弃活动</span></a>
+                                        </div>
+                                        <div class="ac_name"><span>我的活动</span></div>
+                                        <div class="other-record">
+                                            <span>创建时间：2016-05-31 16:20:21</span>
+                                            <span>发送时间：</span>
+                                            <span>营销人数：1人</span>
+                                            <span>链接打开：0次</span>
+                                        </div>
+                                    </div>
+                                    
+                                </td>
+                            </tr>
+                             
+                            
+                        </tbody>
+                        
+                    </table>
+                    
+                </div>
+            
+            	</div>
+        
+        		
+        	</div>
+        
+        </div>
+        
+    </div>
+    
+    
+    <div class="body-wrap"></div>
+    
+    
+    <div class="del-alert">
+        
+        <a><i class="fa-check-circle" aria-hidden="true"></i></a>
+                    
+        <h1>是否删除</h1>
+        
+        <a><i class="fa-times-circle" aria-hidden="true"></i></a>
+        
+    </div>
+    
+    
+    <div class="footer" id="about">
+        <p>© 2016 杭州莫名科技有限公司 版权所有 浙ICP备1400125</p>
+    </div>
+    
+    
+    <div class="contact">
+        
+    </div>
+    
+    
+</body>
+
+<script src="js/init.js"></script>
+
+<script>
+	
+	$(document).ready(function(){
+		
+		var itr;
+		
+		
+		$('.del-alert i').bind({
+			
+			mousedown://这个是鼠标键，是你鼠标左击按下的的效果
+			function()
+			{
+			$(this).addClass('i-in')
+				
+			},
+			mouseup://这个是鼠标键，是你鼠标左击放开后的效
+			function()
+			{
+			$(this).removeClass('i-in')
+			},
+			mouseout:function(e) {
+				
+            	$(this).removeClass('i-in')
+        	}
+			
+		})
+		
+		
+		$('.fa-times-circle,.body-wrap,.fa-check-circle').click(function(e) {
+			
+            $('.sorting_1').eq(itr).removeClass('sorting_1-hover')
+			$('.del-alert').removeClass('del-alert-in')
+			$('.send-alert').removeClass('links-alert-in')
+            $('.body-wrap').removeClass('body-wrap-in')
+			
+        })
+		
+		
+		$('.fa-check-circle').click(function(e) {
+			
+            $('#example-1 tbody tr').eq(itr).remove()
+			
+        })
+		
+		
+		$('.ds-bar-del').live('click',function(e) {
+			
+			itr=$(this).parents('tr').index()
+			$('.sorting_1').eq(itr).addClass('sorting_1-hover')
+			$('.del-alert').addClass('del-alert-in')
+            $('.body-wrap').addClass('body-wrap-in')
+			
+        })
+		
+		
+	})
+	
+</script>
+
+
+<!-- Imported styles on this page -->
+
+	<!-- Bottom Scripts -->
+	<script src="js/jquery.dataTables.min.js"></script>
+
+
+	<!-- Imported scripts on this page -->
+	<script src="js/dataTables.bootstrap.js"></script>
+	
+</html>

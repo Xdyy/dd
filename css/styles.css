@@ -1,0 +1,87 @@
+/* === Remove input autofocus webkit === */
+*:focus {outline: none;}
+
+/* === Form Typography === */
+.form_hint, .required_notification {font-size: 11px;}
+
+/* === List Styles === */
+.contact_form li{
+	padding:12px; 
+	position:relative;
+} 
+/* === Form Header === */
+.contact_form h2 {
+	margin:0;
+	display: inline;
+}
+.required_notification {
+	color:#d45252; 
+	margin:5px 0 0 0; 
+	display:inline;
+	float:right;
+}
+
+/* === Form Elements === */
+.contact_form input {
+	height:20px; 
+	width:220px; 
+	padding:5px 12px;
+}
+
+.contact_form .verify{width:46px;}
+
+	/* form element visual styles */
+	.contact_form input{ 
+		border:1px solid #aaa;
+		border-radius:2px;
+		padding-right:30px;
+	}
+	
+.contact_form .verify:focus{width:69px;}
+	.contact_form input:focus{
+		background: #fff; 
+		border:1px solid #555; 
+		box-shadow: 0 0 3px #aaa; 
+		width:250px; 
+	}
+.contact_form input[required]+label:before { content:'*';
+color:red;
+margin-right:5px;}
+/* === HTML5 validation styles === */	
+.contact_form input:required{
+	background: #fff url(../images/red_asterisk.png) no-repeat 98% center;
+}
+.contact_form input:required:valid{
+	background: #fff url(../images/valid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921f;
+}
+.contact_form input:focus:invalid{
+	background: #fff url(../images/invalid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
+/* === Form hints === */
+.form_hint {
+	width:160px;
+	background: #d45252;
+	border-radius: 3px 3px 3px 3px;
+	color: white;
+	margin-left:8px;
+	padding: 1px 6px;
+	z-index: 999; /* hints stay above all other elements */
+	position: absolute; /* allows proper formatting if hint is two lines */
+	display: none;
+}
+.form_hint::before {
+	content: "\25C0";
+	color:#d45252;
+	position: absolute;
+	top:1px;
+	left:-6px;
+}
+.contact_form input:focus + .form_hint {display: inline;}
+.contact_form input:required:valid + .form_hint {background: #28921f;}
+.contact_form input:required:valid + .form_hint::before {color:#28921f;}
+

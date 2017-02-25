@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+.tab-recharge{position:relative; display:flex;border-radius:12px; border:1px solid #ccc;}
+.tab-recharge li{padding:3px 6px; z-index:66; cursor:pointer}
+.tab-recharge li:hover{ color:#fefefe;}
+.tab-recharge .li-active{ color:#fefefe;}
+.tab-recharge li:last-of-type{position:absolute;height:100%;background-color:#292f38;border-radius:12px;left:0; top:0; z-index:1;}
+.table-wrap{display:flex;overflow:hidden;}
+.table-wrap>.panel-body{flex:1;}
+.table-out{ max-width:0;overflow:hidden}
+.table-pay{color:#f88311 !important;}
+.table-unpay{color:#4e7fe1 !important}
+.table-unpay:hover{ text-decoration: underline;}

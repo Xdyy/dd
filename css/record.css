@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+.panel-heading.record-heading h3{ line-height:90px; min-width:160px;}
+
+.panel-heading.record-heading li{font-size:6rem;}
+
+.table-record{ display:block;padding:10px}
+.table-record tbody{display:flex;flex-wrap:wrap; justify-content:space-between;}
+.table-record tbody tr{display:block;flex: 0 0 330px;}
+.table-record .sorting_1:last-child{ border:1px solid #eee;}
+.table-record .sorting_1:hover{background-color:#30426a;color:#ddd;}
+.table-record .sorting_1-hover{background-color:#30426a;color:#ddd;}
+.record{text-align:center;position:relative;padding:36px 0;}
+.record:hover .lrAlign{opacity:1;visibility:visible}
+.record h6{position:relative;}
+.record h6 img{height:100%;margin-right:12px;cursor:pointer;}
+.record h6 span{color:#56abe4;}
+.record h6 .span-color{color:#f88311}
+.record h6 em{ position:absolute;left:0;top:-66%;width:100%;background-color:#222d49;word-wrap:break-word;padding: 12px 0;visibility:hidden; opacity:0}
+.record h6 img:hover + em{ visibility: visible; opacity:1}
+.sms-body{height:160px;margin:12% auto 0;word-break:break-all;text-align:left;}
+.sms-body a{color:#56abe4; cursor:pointer; }
+.lrAlign{position:absolute; top:56%; left:0; color:#FFFFFF; opacity:0; visibility:hidden;width:100%;}
+.lrAlign a{color:#FFF; position:absolute;cursor:pointer;  padding:6px; border: 1px solid #ccc;}
+.lrAlign a span{text-indent:.3rem; display:inline-block;}
+.lrAlign a:hover{transform:scale(1.3); background-color:#222d49}
+.ds-bar-edit,.ds-bar-look{ left:0;}
+.ds-bar-del,.ds-bar-again{ right:0;}
+.ac_name span{font-size:3rem; display:block; line-height:2;}
+.other-record span{ display:block;}
+
+
+.del-alert{position:fixed;top:42%; left:21%;display:flex; width:55%; visibility:hidden; opacity:0; transform:scale(0);text-align:center;}
+.del-alert-in{opacity:1; visibility: visible; transform:scale(1)}
+.del-alert h1{flex:1;color:#ddd;}
+.del-alert a{flex:2;color:#ddd;}
+.del-alert i{transform:scale(12);cursor:pointer}
+.del-alert .i-in{transform:scale(10) !important;}
+.del-alert i:hover{transform:scale(16);color:#30426a;}
+

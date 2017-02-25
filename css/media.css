@@ -1,0 +1,30 @@
+@media screen and (max-width:1440px)
+{	/*index.html*/
+	.conter-box{width:96%}
+	.sms-edit{flex-direction:column-reverse;}
+	.sms{flex:none;}
+	
+	.web-html-two ul{width:470px;height:300px;}
+	.phone,.phone-two{background-image:url(../images/iphone.jpg) ;width:470px;height:300px;}
+	.phone p,.phone-two p{width:43%;top:35%;}
+	.send-alert{width:auto;left:31%;}
+	.send-alert-in{left:13%;}
+	.send-alert .alert{flex-direction:column;}
+	.count-index span{display:inline-block;margin:2% 3% 2% 0; line-height:3rem;}
+	.sendTest-alert{left:16%;}
+	.addModuleBtn-alert{left:29%;}
+	.del-alert-in{transform:scale(0.5);width:80%;left:12%;}
+	
+}
+@media screen and (max-width:1024px)
+{
+	
+}
+@media screen and (max-width:768px)
+{
+	
+}
+@media screen and (max-width:480px)
+{
+	
+}

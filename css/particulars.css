@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+.panel-heading.part-heading h3{ min-width:160px;}
+.panel-heading.part-heading li{font-size:1.2rem;}
+.count{display:flex; flex-wrap:wrap; margin:10px 0;}
+.count>li{    position: relative;
+    /* flex: 1; */
+    /* min-width: 316px; */
+    /* max-width: 355px; */
+    min-width: 330px;
+    display: flex;margin: 5px 0;}
+.count>li>i{color:#222d49;font-size:6rem;}
+.count>li>i{flex:3}
+.count ul{flex:7;}
+.count ul li b{margin-right:6%;font-size:3rem;color:#30426a; font-weight:normal;}
+
+.count ul li a:hover span:before{width:1600%;left:-700%;}
+.count ul li span {cursor:pointer;position:relative;}
+.count ul li span:before,.count li span:after{opacity:0; visibility:hidden;position: absolute; z-index:666;}
+.count ul li span:before{content:attr(uib-tooltip); bottom:139%; left:-265%;font-size:1rem; background-color:#222d49; color:#eee; padding:6px; word-break:break-all;width:630%;border-radius:3px;}
+.count ul li span:after{content:""; bottom:90%; left:0; width: 0px;height: 0px; border-left: 9px solid transparent;border-right: 9px solid transparent; border-top: 9px solid #222d49;}
+.count ul li span:hover:before,.count li span:hover:after{opacity:1; visibility: visible; transition:all 0.6s ease;}
+.count ul li span i{font-size:1.6rem;}
+
+.mypanel-part{height:100px; margin:10px 0; }
+.mypanel-part a{color: #337ab7; text-decoration: none;}
+.mypanel-part a:hover{text-decoration: underline;}
+
+.sector{}
+
+#holder{text-align:center;}

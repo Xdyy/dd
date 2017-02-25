@@ -1,0 +1,1175 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><!--响应式视口声明-->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/xenon-core.css">
+<link rel="stylesheet" href="css/dataTables.bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/global.css"><!--全站标签默认样式表-->
+<link rel="stylesheet" type="text/css" href="css/grid.css"><!--栅格化样式表-->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"><!--外部字体样式表-->
+<link rel="stylesheet" type="text/css" href="css/layout.css"><!--自定义导航条样式表-->
+<link rel="stylesheet" type="text/css" href="css/mass.css" ><!--我的样式表-->
+
+<link rel="stylesheet" type="text/css" href="css/record.css" >
+<link rel="stylesheet" type="text/css" href="css/recharge.css" >
+<link rel="stylesheet" type="text/css" href="css/particulars.css" >
+<link rel="stylesheet" type="text/css" href="css/consume.css" >
+<link rel="stylesheet" type="text/css" href="css/media.css"><!--媒体查询样式表-->
+<script src="js/jquery.min.js"></script><!--JQ库文件-->
+
+</head>
+
+<body>
+	
+    <div class="fixed-wrap">
+    
+        <div class="top">
+        
+            <div class="user right-links">
+        
+        <a href="#edit-profile">
+            <i class="fa-envelope"></i>
+            短信：26
+        </a>
+        <a href="#edit-profile">
+            <i class="fa-envelope"></i>
+            充值
+        </a>
+        
+        <a href="#" class="user-list">
+            <span>
+                <i class="fa-user"></i>
+                Arlind Nushi
+                <i class="fa-angle-down"></i>
+            </span>
+        </a>
+        
+        <ul class="user-menu">
+            <li class="">
+                <a href="#">
+                    <i class="fa-edit"></i>
+                    New Post
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-wrench"></i>
+                    Settings
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-user"></i>
+                    Profile
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-info"></i>
+                    Help
+                </a>
+            </li>
+            <li class="last">
+                <a href="#">
+                    <i class="fa-lock"></i>
+                    Logout
+                </a>
+            </li>
+        </ul>
+        </div>
+        
+        </div>
+        
+        <div class="header">
+            <div class="logo" name="牛百发"></div>
+            <div class="nav">
+                <ul>
+                    <li><a class="right" href="index.html"><span>短信群发</span></a></li>
+                    <li><a href="recharge.html"><span>短信充值</span></a></li>
+                    <li><a href="#"><span>常见问题</span></a></li>
+                </ul>
+            </div>
+        </div>
+    
+    </div>
+    
+    <div class="main"> 
+    
+        <div class="main-menu ">
+        <h5>导航</h5>
+        <ul class="menu">
+            <li class="has-sub li-im">
+                <a href="#">
+                    <i class="fa-wrench"></i>
+                     <span>号码群发</span>
+                </a>
+                <ul>
+                </ul>
+            </li>
+            <li class="has-sub li-im">
+                <a href="record.html">
+                    <i class="fa-wrench"></i>
+                     <span>短信群发记录</span>
+                </a>
+                <ul>
+                </ul>
+            </li>
+           <!-- <li class="has-sub">
+                <a href="#">
+                    <i class="fa-wrench"></i>
+                     <span>号码群发</span>
+                </a>
+                <ul>
+                    <li>
+                        <a href="#settings">
+                             <span> 短信消耗</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#settings">
+                             <span> 短信消耗</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#settings">
+                             <span> 短信消耗</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="has-sub li-im">
+                <a href="#">
+                    <i class="fa-wrench"></i>
+                     <span>号码群发</span>
+                </a>
+                <ul>
+                </ul>
+            </li>
+            <li class="has-sub li-im">
+                <a href="#">
+                    <i class="fa-wrench"></i>
+                     <span>短信群发记录</span>
+                </a>
+                <ul>
+                </ul>
+            </li>
+            <li class="has-sub">
+                <a href="#">
+                    <i class="fa-wrench"></i>
+                     <span>号码群发</span>
+                </a>
+                <ul>
+                    <li>
+                        <a href="#settings">
+                             <span> 短信消耗</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#settings">
+                             <span> 短信消耗</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#settings">
+                             <span> 短信消耗</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>-->
+        </ul>
+        </div>
+        
+        <div class="main-conter">
+        
+        <div class="site">
+            <h5>位置：</h5>
+            <ul>
+                <li><span><a href="#">号码群发</a></span></li>
+                <li><span><a href="#">查看活动</a></span></li>
+            </ul>
+        </div>
+            
+        <div class="conter-box">
+        
+        	<div class="panel mypanel panel-index">
+                
+                <h4>任务名称</h4><input value="我的活动"/>
+                
+            </div>
+            
+            <div class="panel mypanel">
+            
+                <div class="panel-heading">
+                	<h3 class="panel-title">群发对象</h3>
+                </div>
+                
+                <div class="sort">
+                
+                    <div class="btu left-links">
+                    <ul>
+                    <li><label><input type="radio" value="导入手机号" name="btu"  checked/><span>导入手机号</span></label></li>
+                    <li><label><input type="radio" value="输入手机号" name="btu"/><span>输入手机号</span></label></li>
+                    </ul>
+                    </div>
+                    
+                    <div class="file-btn left-links">
+                    <ul>
+                    <li >
+                    <a class="button-add">
+                    导入用户<input class="file-style" type="file" value="浏览" />
+                    </a>
+                    根据已有订单筛选用户
+                    </li>
+                    <li>
+                    <a class="button-add sr-in">输入用户</a>
+                    手动输入号码
+                    </li>
+                    </ul>
+                    </div>
+                    
+                </div>
+                
+                <div class="panel-body">
+                
+					<script type="text/javascript">
+                    jQuery(document).ready(function($)
+                    {
+                    $("#example-1").dataTable({
+                    aLengthMenu: [
+                    [66, 5], [66,5]
+                    ]
+                    });
+                    });
+                    </script>
+                    
+                    <table id="example-1" class="table mytable table-striped table-bordered" cellspacing="0" width="100%">
+                    
+                    <thead>
+                    <tr >
+                    <th>名称</th>
+                    <th>人数</th>
+                    <th>进度</th>
+                    <th>状态</th>
+                    </tr>
+                    </thead>
+                    
+                    <tbody>
+                    <tr>
+                    <td>Tiger Nixon</td>
+                    <td>System Architect</td>
+                    <td>Edinburgh</td>
+                    <td>
+                    <a class="button-del">删除</a>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>Garrett Winters</td>
+                    <td>Accountant</td>
+                    <td>Tokyo</td>
+                    <td>
+                    <a class="button-del">删除</a>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>Ashton Cox</td>
+                    <td>Junior Technical Author</td>
+                    <td>San Francisco</td>
+                    <td>
+                    <a class="button-del">删除</a>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>Herrod Chandler</td>
+                    <td>Sales Assistant</td>
+                    <td>San Francisco</td>
+                    <td>
+                    <a class="button-del">删除</a>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>Rhona Davidson</td>
+                    <td>Integration Specialist</td>
+                    <td>Tokyo</td>
+                    <td>
+                    <a class="button-del">删除</a>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>Fiona Green</td>
+                    <td>Chief Operating Officer (COO)</td>
+                    <td>San Francisco</td>
+                    <td>
+                    <a class="button-del">删除</a>
+                    </td>
+                    </tr>
+                    </tbody>
+                    </table>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="sms-edit">
+                
+                <div class="panel mypanel sms">
+                
+                    <div class="text">
+                        <div class="panel-heading">
+                    
+                            <h3 class="panel-title">短信内容</h3>
+                            <font color="red" size="3rem" >465</font>字/<font color="red" size="3rem" >465</font>条
+                        </div>
+                        <div class="hint">
+                            <textarea></textarea>
+                            <h5>一条短信67个字，您已经输入
+                            	<strong class="text-info ng-binding"><span class="num-1">10</span></strong>
+                                个字(含
+                                <abbr style="margin-right:10px" class="text-info" title="固定签名占用5个字">签名</abbr>
+                                <abbr style="margin-right:10px" class="text-info" title="退订回N占用4个字,之前空格占用一个字">退订回N</abbr>
+                                <abbr class="text-info ng-hide" ng-show="active.AC_type==2" style="margin-right:10px; display:none;" title="给手机网页用的短链接,例如:www.qc.gs/xxxxxx">网页短链接</abbr>
+                                )，预计扣除
+                                <strong class="text-info ng-binding"><b class="num-2">1</b></strong>
+                                条短信，以实际字数为准！
+                            </h5>
+                        </div>
+                        
+                        <div class="other">
+                            <ul>
+                                <li>插入短链：
+                                    <span class="button-add qc-links">亲橙短链</span>
+                                </li>	
+                                <li>短信通道：
+                                
+                                    <select>
+                                        <option  value="object:28" label="通道七（推荐）" selected="selected">通道七（推荐）</option>
+                                    </select>
+                                    <span>当通道拥堵时您可以尝试切换通道</span>
+                                    
+                                </li>
+                                <li>短信签名：
+                                
+                                    <select  class="signature" ng-model="sign.selected" ng-options="opt as opt.label for opt in sign.options">
+                                        <option value="object:43" label="试用">试用</option>
+                                        <option value="object:44" label="微信商城">微信商城</option>
+                                        <option value="object:45" label="微信红包">微信红包</option>
+                                        <option value="object:46" label="微商城">微商城</option>
+                                        <option value="object:47" label="促销风暴">促销风暴</option>
+                                        <option value="object:48" label="促销来啦">促销来啦</option>
+                                        <option value="object:49" label="免费试用">免费试用</option>
+                                    </select>
+                                    
+                                    <span >签名占用<span class="num-3">5</span>个字&nbsp;&nbsp;</span> <a style="color:#337ab7;  cursor:pointer" class="custom">申请自定义签名</a>
+                                    
+                                </li>
+                                <li>手机网页：
+                                
+                                    <button type="button" class="selectSpan activeSelectIsFocus">不使用</button>
+                                    <button type="button" class="selectSpan">使用,生成手机网页</button>
+                                        
+                                </li>
+                                <li>
+                                    <div class="alert-danger" style="padding:16px; background-color:#fcf8e3"> 
+                                        收不到短信的原因可能有以下几种：<br>
+                                        1、您提交发送的短信内容还在审核中，移动运营商要求所有营销短信内容必须人工审核，平台每隔5-10分钟审核一次；<br>
+                                        2、您提交的短信内容有违规信息，审核不通过；<br>
+                                        3、短信的发送时间是8:00——22:00.您提交的发送时间不在这个范围内；<br>
+                                        4、您的短信被手机拦截了，关于短信拦截：苹果手机不会拦截任何短信，部分安卓手机自带有拦截功能，通过优化短信文案可以降低拦截率，例如“包邮”可优化为“包油”。<br>
+                                        5、短信是由移动全国各地区的基站发送的，基站信息不好有可能导致个别号码发送失败；<br>
+                                        6、您的手机号码曾经回复过“N”或“TD”等内容退订，被短信通道列为了黑名单，不再发送；<br>
+                                        您还可以把没收到短信的号码提交给我们的客服，让客服帮您查短信回执状态来找原因。<br>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                       
+                    <div class="web-html" >
+                    
+                        <div class="panel-heading">
+                        
+                            <h3 class="panel-title">编辑手机网页</h3>
+                        
+                        </div>
+                            
+                        <ul id="baro">
+                            <li class="btnContainer">
+                                <bar>
+                                    <barbd class="radius"></barbd>
+                                    <baracts>
+                                        <a class="ds-bar-edit"><i class="fa-pencil"></i><span>编辑</span></a>
+                                        <a class="ds-bar-del"><i class="fa-close"></i><span></span></a>
+                                    </baracts>
+                                </bar>
+                            </li>
+                        </ul>
+                                
+                        <br>
+                        
+                        <span class="addwordContainer  button-add" ><i class="fa-font" aria-hidden="true"></i>&nbsp;文字</span>
+                        <span class="addbannerContainer  button-add" ><i class="fa-picture-o" aria-hidden="true"></i>&nbsp;图片</span>
+                        <span class="addvideoContainer  button-add" ><i class="fa-video-camera" aria-hidden="true"></i>&nbsp;视频</span>
+                        
+                        </div>  
+                        
+                </div>
+            
+                <div class="effect panel mypanel">
+                
+                    <div class="panel-heading">
+                    
+                        <h3 class="panel-title">短信效果</h3>
+                    
+                    </div>
+                    
+                    <div class="phone">
+                    
+                        <p>【<b>试用</b>】<span></span>&nbsp;<a data-hover="www.qc.gs/xxxxxx&nbsp;"></a>退订回N</p>
+                    
+                    </div>
+                    
+                    <div class="send">
+                        <a href="javascript:void(0)" class="ds-bar-del" ng-click="remove()">取消任务</a>
+                        &nbsp;&nbsp; <!-- ngIf: !sms.hasError -->
+                        <button ng-if="!sms.hasError" class="button-ok send-in"  ng-click="setTime()">确认发送</button>
+                        <button ng-if="!sms.hasError" class="button-off sendTest"  ng-click="sendTest()">发送测试</button>
+                    </div>
+                    
+                </div>
+            
+            </div>
+            
+        </div>
+        
+        </div>
+        
+    </div>
+    
+    
+    <div class="footer" id="about">
+    
+    	<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+        
+    </div>
+    
+    <div class="contact">
+        
+    </div>
+    
+    
+    <!--弹窗start-->
+    
+    <div class="body-wrap"></div>
+    
+    <div class="sr-alert alert-warp">
+    
+        <h3>输入号码</h3>
+        <div class="alert" > 
+            <textarea></textarea>
+            <p>号码之间可用空格或者回车符分隔！最多每次发送5000个！</p>
+            <button class="button-ok sr-ok"  >确定</button>
+            <span class="button-off sr-off" >取消</span>
+        </div> 
+        
+    </div>
+    
+    <div class="links-alert alert-warp">
+    
+    	<h3>自定义短链接</h3>
+        
+        <form>
+            <input placeholder="请输入要转化的链接" required pattern="^((https|http|ftp|rtsp|mms)?:\/\/)[^\s]+">
+            
+            <div class="alert" style="text-align:left">
+                <strong>说明：</strong>
+                <span ng-bind-html="helpText[urlParams.type].notice" class="ng-binding">
+                	可以将您的店铺商品页、活动页以及任意链接生成域名为h5d.cn的短链，<font color="red">短链的投放效果数据（比如点击次数、打开手机型号等）可以在发送活动之后在活动列表点查看活动</font>
+                </span>
+            </div>
+            
+            <button class="button-ok links-ok"  >确定</button>
+            <span class="button-off links-off" >取消</span>
+        
+        <form>
+        
+    </div>
+    
+    <div class="custom-alert alert-warp">
+    
+    	<h3>自定义签名</h3>
+        
+        <form>
+        	<input pattern="\S{2,8}" required placeholder="自定义签名，字数为2-8个字" maxlength="8">
+            
+            <div class="alert" style="text-align:left">
+            
+                <strong>说明：</strong><br>
+                <span>
+                    1，自定义签名字数限制为2-8个字<br>
+                    2，不能使用官方的签名，如：“天猫”、“淘宝”等<br>
+                    3，自定义签名需要与您的店铺名、公司名、品牌名称等对应<br>
+                </span>
+                
+            </div>
+            
+            <button class="button-ok custom-ok"  >确定</button>
+            <span class="button-off custom-off" >取消</span>
+            
+        </form>
+        
+    </div>
+    
+    <div class="send-alert alert-warp">
+    
+    	<h3>执行发送</h3>
+
+            <div class="alert">
+            
+            	<div class="count-index">
+                
+                    <h4>发送和消耗：</h4>
+                    <span><strong>短信字数：</strong><b class="num-1">14</b>字<br></span>
+                    <span><strong>占用条数：</strong><b class="num-2">1</b>条<br></span>
+                    <span><strong>群发人数：</strong><b>0</b>人<br></span>
+                    <span><strong>扣除短信：</strong><b>0</b>条<br></span>
+                    
+                </div>
+                
+                <div class="web">
+                
+                    <div class="phone-two">
+                    
+                    </div>
+                    
+                    <div class="web-html-two">
+                    
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            
+            <button class="button-ok send-ok">确定</button>
+            <span class="button-off send-off" >取消</span>
+            
+        
+    </div>
+    
+    <div class="sendTest-alert alert-warp">
+    
+    	<h3>短信发送测试</h3>
+
+            <div class="alert clearfix">
+            
+            	<h5 >通过真实的测试来检测短信是否被360等手机软件拦截，当拦截率过高，建议您修改短信文案再测试，10分钟内不要测试超过三次</h5>
+                
+                
+                
+                <div class="col-md-6 ng-scope" ng-repeat="(key,test) in mobiles">
+                    <form action="" class="form-horizontal ng-pristine ng-valid">
+                    <div class="form-group">
+                        <label class="col-md-6 control-label" style="text-align:center">姓名</label>
+                        <label class="col-md-6 control-label" style="text-align:center">手机号码</label>
+                      </div>
+                    <!-- end ngRepeat: user in test.lists -->
+                    <div class="form-group ng-scope" ng-repeat="user in test.lists" ng-hide="user.isSystem">
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.name" class="form-control text-center ng-pristine ng-untouched ng-valid">
+                      </div>
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.number" class="form-control ng-pristine ng-untouched ng-valid">
+                      </div>
+                      </div>
+                    <!-- end ngRepeat: user in test.lists -->
+                    <div class="form-group ng-scope" ng-repeat="user in test.lists" ng-hide="user.isSystem">
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.name" class="form-control text-center ng-pristine ng-untouched ng-valid">
+                      </div>
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.number" class="form-control ng-pristine ng-untouched ng-valid">
+                      </div>
+                      </div>
+                    <!-- end ngRepeat: user in test.lists -->
+                    <div class="form-group ng-scope" ng-repeat="user in test.lists" ng-hide="user.isSystem">
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.name" class="form-control text-center ng-pristine ng-untouched ng-valid">
+                      </div>
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.number" class="form-control ng-pristine ng-untouched ng-valid">
+                      </div>
+                      </div>
+                    <!-- end ngRepeat: user in test.lists -->
+                    <div class="form-group ng-scope" ng-repeat="user in test.lists" ng-hide="user.isSystem">
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.name" class="form-control text-center ng-pristine ng-untouched ng-valid">
+                      </div>
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.number" class="form-control ng-pristine ng-untouched ng-valid">
+                      </div>
+                      </div>
+                    <!-- end ngRepeat: user in test.lists -->
+                    <div class="form-group ng-scope" ng-repeat="user in test.lists" ng-hide="user.isSystem">
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.name" class="form-control text-center ng-pristine ng-untouched ng-valid">
+                      </div>
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.number" class="form-control ng-pristine ng-untouched ng-valid">
+                      </div>
+                      </div>
+                    <!-- end ngRepeat: user in test.lists -->
+                    <div class="watermark fa fa-android android" ng-class="{'fa-android':key==0,'fa-apple':key==1,'android':key==0}"></div>
+                  </form>
+                  </div>
+                <!-- end ngRepeat: (key,test) in mobiles -->
+                <div class="col-md-6 ng-scope" ng-repeat="(key,test) in mobiles">
+                    <form action="" class="form-horizontal ng-pristine ng-valid">
+                    <div class="form-group">
+                        <label class="col-md-6 control-label" style="text-align:center">姓名</label>
+                        <label class="col-md-6 control-label" style="text-align:center">手机号码</label>
+                      </div>
+                    <!-- end ngRepeat: user in test.lists -->
+                    <div class="form-group ng-scope" ng-repeat="user in test.lists" ng-hide="user.isSystem">
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.name" class="form-control text-center ng-pristine ng-untouched ng-valid">
+                      </div>
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.number" class="form-control ng-pristine ng-untouched ng-valid">
+                      </div>
+                      </div>
+                    <!-- end ngRepeat: user in test.lists -->
+                    <div class="form-group ng-scope" ng-repeat="user in test.lists" ng-hide="user.isSystem">
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.name" class="form-control text-center ng-pristine ng-untouched ng-valid">
+                      </div>
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.number" class="form-control ng-pristine ng-untouched ng-valid">
+                      </div>
+                      </div>
+                    <!-- end ngRepeat: user in test.lists -->
+                    <div class="form-group ng-scope" ng-repeat="user in test.lists" ng-hide="user.isSystem">
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.name" class="form-control text-center ng-pristine ng-untouched ng-valid">
+                      </div>
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.number" class="form-control ng-pristine ng-untouched ng-valid">
+                      </div>
+                      </div>
+                    <!-- end ngRepeat: user in test.lists -->
+                    <div class="form-group ng-scope" ng-repeat="user in test.lists" ng-hide="user.isSystem">
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.name" class="form-control text-center ng-pristine ng-untouched ng-valid">
+                      </div>
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.number" class="form-control ng-pristine ng-untouched ng-valid">
+                      </div>
+                      </div>
+                    <!-- end ngRepeat: user in test.lists -->
+                    <div class="form-group ng-scope" ng-repeat="user in test.lists" ng-hide="user.isSystem">
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.name" class="form-control text-center ng-pristine ng-untouched ng-valid">
+                      </div>
+                        <div class="col-md-6">
+                        <input ng-disabled="user.isSystem" ng-model="user.number" class="form-control ng-pristine ng-untouched ng-valid">
+                      </div>
+                      </div>
+                    <!-- end ngRepeat: user in test.lists -->
+                    <div class="watermark fa fa-apple" ng-class="{'fa-android':key==0,'fa-apple':key==1,'android':key==0}"></div>
+                  </form>
+                  </div>
+                  
+                  
+				</div>
+            
+            
+            <button class="button-ok sendTest-ok" >确定</button>
+            <span class="button-off sendTest-off">取消</span>
+            
+        </form>
+        
+    </div>
+    
+    <div class="wordContainer-alert alert-warp">
+    
+    	<h3>添加文字模块</h3>
+        
+        <div class="alert">
+        	<textarea>这是一段简单的描述，快速向你的客户表达您的亲切问候吧</textarea>
+        	<ul style="display:none">                      
+                <li class="btnContainer">
+                    <div class="wordContainer" data-hover="1">
+                        <p>这是一段简单的描述，快速向你的客户表达您的亲切问候吧</p>
+                    </div>
+                </li>
+            </ul>
+            <button class="button-ok wordContainer-ok" >确定</button>
+            <span class="button-off wordContainer-off" >取消</span>
+        </div>
+        
+    </div>
+    
+    <div class="bannerContainer-alert alert-warp">
+    
+        <h3>添加图片模块</h3>
+        <div class="alert">
+            <h6>图片地址(推荐宽度280px):</h6>
+            <input value="http://img02.taobaocdn.com/imgextra/i2/1878925607/T2XgDnXjJbXXXXXXXX-1878925607.jpg" required pattern="^((https|http|ftp|rtsp|mms)?:\/\/)[^\s]+">
+            <h6>图片链接:</h6>
+            <input value="http://www.taobao.com" required pattern="^((https|http|ftp|rtsp|mms)?:\/\/)[^\s]+">
+            <ul style="display:none">     
+              <li class="btnContainer">
+                    
+                    <div class="bannerContainer" data-hover="2">
+                    
+                        <a href="http://www.taobao.com" target="_blank">
+                            <img src="http://img02.taobaocdn.com/imgextra/i2/1878925607/T2XgDnXjJbXXXXXXXX-1878925607.jpg">
+                        </a>
+                        
+                    </div>
+                </li>
+            </ul>
+            <button class="button-ok bannerContainer-ok">确定</button>
+            <span class="button-off bannerContainer-off" >取消</span>
+        </div>
+    </div>
+    
+    <div class="videoContainer-alert alert-warp">
+    
+        <h3>添加视频模块</h3>
+        <div class="alert">
+            <h6 style="text-align:left">请输入要视频的地址<br>暂时支持土豆、优酷、ku6的视频。(复制目标视频的网页路径即可)</h6>
+            <input value="http://player.ku6.com/refer/If_PEmtmVzDtyyWODNivcA../v.swf" required pattern="^((https|http|ftp|rtsp|mms)?:\/\/)[^\s]+">
+            <ul style="display:none">
+                <li class="btnContainer">
+                    
+                    <div class="videoContainer" data-hover="3">
+                        
+                        <iframe src="http://player.ku6.com/refer/If_PEmtmVzDtyyWODNivcA../v.swf" frameborder="0" allowfullscreen="true" style="width: 100%;"></iframe>
+                        
+                    </div>
+                </li>
+            </ul>
+            <button class="button-ok videoContainer-ok" >确定</button>
+            <span class="button-off videoContainer-off" >取消</span>
+        </div>
+    </div>
+    
+	<!--弹窗end-->
+    
+    
+    <div class="del-alert">
+        
+        <a><i class="fa-check-circle" aria-hidden="true"></i></a>
+                    
+        <h1>是否取消任务</h1>
+        
+        <a><i class="fa-times-circle" aria-hidden="true"></i></a>
+        
+    </div>
+    
+    
+</body>
+
+<script src="js/init.js"></script>
+
+<script src="js/Sortable.js"></script><!--拖动插件-->
+
+<!--弹窗start-->
+<script>
+
+	
+	$(document).ready(function(){
+		
+		
+		var bodyWrap=$('.body-wrap'),
+			webHtmlLi=$('.web-html li'),
+			c=webHtmlLi.first().html()
+		webHtmlLi.remove()
+		
+		function addOk(nameContainerOk,nameContainerAlert){
+			
+			nameContainerOk.click(function(e) {
+			
+				var addLi=nameContainerAlert.find('li').clone()
+				var addLi=addLi.html()
+				if(addLi!=null){
+					$('.web-html ul').append('<li class="btnContainer" style=" display:none">'+c+addLi+'</li>')
+					$('.btnContainer').fadeIn(300)
+				}
+				
+				bodyWrap.removeClass('body-wrap-in')
+				nameContainerAlert.removeClass('links-alert-in')
+			   
+        	})
+				
+		}
+		
+		function liveClickAlert(nameLiveClick,nameAlert){
+			
+			nameLiveClick.live('click',function(e) {
+			
+				bodyWrap.addClass('body-wrap-in')
+				nameAlert.addClass('links-alert-in')
+			   
+        	})
+				
+		}
+		
+		var addVideoLiveClick=$('.addvideoContainer'),
+			videoContainerOK=$('.videoContainer-ok'),
+			videoContainerAlert=$('.videoContainer-alert')
+		videoContainerAlert.find('input').bind('input propertychange', function(){
+			
+			$(this).parent().find('iframe').attr('src',$(this).val())
+			
+		})
+		addOk(videoContainerOK,videoContainerAlert)
+		liveClickAlert(addVideoLiveClick,videoContainerAlert)
+		$('.videoContainer-off,.body-wrap').click(function(e) {
+			
+			videoContainerAlert.removeClass('links-alert-in')
+		   
+        })
+		
+		
+		var addBannerClickAlert=$('.addbannerContainer'),
+			bannerContainerOK=$('.bannerContainer-ok'),
+			bannerContainerAlert=$('.bannerContainer-alert')
+		bannerContainerAlert.find('input').bind('input propertychange', function(){
+			switch($(this).index())
+			{
+			case 1:
+				$(this).parent().find('img').attr('src',$(this).val())
+			  break;
+			case 3:
+				$(this).parent().find('a').attr('href',$(this).val())
+			  break;
+			}
+			
+		})
+		addOk(bannerContainerOK,bannerContainerAlert)
+		liveClickAlert(addBannerClickAlert,bannerContainerAlert)
+		$('.bannerContainer-off,.body-wrap').click(function(e) {
+			
+			bannerContainerAlert.removeClass('links-alert-in')
+		   
+        })
+		
+		
+		var addWordClickAlert=$('.addwordContainer'),
+			wordContainerOK=$('.wordContainer-ok'),
+			wordContainerAlert=$('.wordContainer-alert')
+		wordContainerAlert.find('textarea').bind('input propertychange', function() {
+			
+				$(this).parent().find('p').text($(this).val())
+			
+		})
+		addOk(wordContainerOK,wordContainerAlert)
+		liveClickAlert(addWordClickAlert,wordContainerAlert)
+		$('.wordContainer-off,.body-wrap').click(function(e) {
+			
+			wordContainerAlert.removeClass('links-alert-in')
+		   
+        })
+		
+		
+		$('.ds-bar-del').live('click',function(e) {
+			
+			$(this).parents('li').fadeOut(300,function(e){
+			
+           		$(this).remove() 
+			
+        	})
+			
+        })
+		
+		$("#baro li bar").live({
+		
+			mouseenter:function(){
+			
+				$(this).addClass('barr')
+			
+			},
+			mouseleave:function(){
+			
+				$(this).removeClass('barr')
+			
+			}
+		
+		})
+		
+		
+		
+		$('.button-del').live('click',function(e) {
+			$(this).parents('tr').remove()
+        })
+		
+		
+		
+		var sendInClick=$('.send-in'),
+			sendInAlert=$('.send-alert'),
+			webHtml=$('.web-html'),
+			webHtmlTwo=$('.web-html-two'),
+			wh=webHtml.html(),
+			hintAbbr=$('.hint abbr'),
+			phonePA=$('.phone p a'),
+			otherUL=$('.other ul'),
+			otherLifirst=otherUL.find('li').first().prop("outerHTML"),
+			Sorli
+		webHtml.html('')
+		$('.selectSpan').click(function(e) {
+			
+			$(this).addClass('activeSelectIsFocus').siblings().removeClass('activeSelectIsFocus')
+			
+			switch($(this).index())
+			{
+			case 0:
+				otherUL.prepend(otherLifirst)
+				phonePA.text('')
+				hintAbbr.eq(2).hide()
+				webHtml.removeClass('web-html-click')
+				webHtml.html('')
+				sendInAlert.removeClass('send-alert-in')
+				webHtmlTwo.html('')
+				Sorli.destroy()
+			  break;
+			case 1:
+				otherUL.find('li').first().remove()
+				phonePA.text(phonePA.attr('data-hover'))
+				hintAbbr.eq(2).show()
+				webHtml.addClass('web-html-click')
+				sendInAlert.addClass('send-alert-in')
+				webHtml.html(wh)
+				Sorli=new Sortable(baro,{})
+			  break;
+			}
+			
+        })
+		sendInClick.click(function(e) {
+			
+			webHtmlTwo.html(webHtml.find('ul').prop("outerHTML"))
+			webHtmlTwo.find('li bar').remove()
+			$('.phone-two').html($('.phone').html())
+			bodyWrap.addClass('body-wrap-in')
+			sendInAlert.addClass('links-alert-in')
+			
+        })
+		$('.send-off,.body-wrap').click(function(e) {
+            
+			sendInAlert.removeClass('links-alert-in')
+			
+        })
+		
+		
+		function clickAlert(nameClick,nameAlert){
+			
+			nameClick.click(function(e) {
+            
+				nameAlert.addClass('links-alert-in')
+				bodyWrap.addClass('body-wrap-in')
+			
+        	})
+			
+		}
+		
+		
+		var sendTestClick=$('.sendTest'),
+			sendTestAlert=$('.sendTest-alert')
+		clickAlert(sendTestClick,sendTestAlert)
+		$('.sendTest-off,.body-wrap').click(function(e) {
+            
+			sendTestAlert.removeClass('links-alert-in')
+			
+        })
+		
+		
+		var customClick=$('.custom'),
+			customAlert=$('.custom-alert')
+		clickAlert(customClick,customAlert)
+		$('.custom-off,.body-wrap').click(function(e) {
+            
+			customAlert.removeClass('links-alert-in')
+			
+        })
+		$('.custom-ok').click(function(e) {
+			
+			var reslut=($(this).siblings('input').css('display').length==5 ? true:false)
+			 
+			if(reslut){
+				
+				var text=$(this).siblings('input').val()
+				$('.signature').append("<option label="+text+">"+text+"</option>")
+				$(".signature option:last").attr("selected",true);
+				$('.phone b').text($('.signature option:selected').attr('label'))
+				bodyWrap.removeClass('body-wrap-in')
+				customAlert.removeClass('links-alert-in')
+				$('.num-3').text($('.signature option:selected').attr('label').length+2)
+				return false
+				
+			}
+			
+        })
+		
+		
+		var qcLinksLiveClick=$('.qc-links'),
+			qcLinksAlert=$('.links-alert')
+		liveClickAlert(qcLinksLiveClick,qcLinksAlert)
+		$('.links-ok').click(function(e) {
+			
+			var reslut=($(this).siblings('input').css('display').length==5 ? true:false)
+			
+			if(reslut){
+				
+				var text=$(this).siblings('input').val()
+				$('.hint textarea').val($('.hint textarea').val()+" h5d.cn/G ")
+				$('.phone span').text($('.hint textarea').val())
+				bodyWrap.removeClass('body-wrap-in')
+				qcLinksAlert.removeClass('links-alert-in')
+				return false
+			}
+			
+        })
+		$('.links-off,.body-wrap').click(function(e) {
+            
+			qcLinksAlert.removeClass('links-alert-in')
+			
+        })
+		
+		
+		var Cbtu=$('.btu input:radio[name="btu"]:checked').parents('li'),
+			fileBtnLi=$('.file-btn li')
+		Cbtu.addClass('li-color')
+		fileBtnLi.eq(Cbtu.index()).show().siblings().hide()
+		$('.btu input').click(function() {
+			
+			$($(this).parents('li')).addClass('li-color').siblings('li').removeClass('li-color')
+			fileBtnLi.eq($($(this).parents('li')).index()).fadeIn().siblings().fadeOut(0)
+			
+		})
+		var srInClick=$('.sr-in'),
+			srInAlert=$('.sr-alert')
+		clickAlert(srInClick,srInAlert)
+		$('.sr-off,.body-wrap').click(function(e) {
+            
+			srInAlert.removeClass('links-alert-in')
+			
+        })
+		
+		$('.body-wrap,.sr-off,.links-off,.custom-off,.send-off,.sendTest-off,.wordContainer-off,.videoContainer-off,.bannerContainer-off').click(function(e) {
+            
+			bodyWrap.removeClass('body-wrap-in')
+			
+        })
+		
+	})
+</script>
+<!--弹窗end-->
+
+<script>
+	
+	$(document).ready(function(){
+		
+		var phoneP=$('.phone p'),
+			phoneB=$('.phone b'),
+			num3=$('.num-3'),
+			siOpSe=$('.signature option:selected'),
+			phoneSpan=$('.phone span')
+		$('.hint span').text(phoneP.text().length)
+		phoneB.text(siOpSe.attr('label'))
+		num3.text(siOpSe.attr('label').length+2)
+		$('.signature').change(function(e) {
+			
+			phoneB.text($('.signature option:selected').attr('label'))
+			num3.text($('.signature option:selected').attr('label').length+2)
+           
+        })
+		phoneP.bind('DOMNodeInserted', function() {
+			if(phoneSpan.text().length==0){
+    			$(this).hide()
+			}else{
+    			$(this).fadeIn()	
+			}
+			var i=$(this).text().length
+			$('.num-1').text(i)
+			var num=Math.ceil($(this).text().length/67)
+			$('.num-2').text(num)
+			
+		})
+		phoneSpan.text($('.hint textarea').val())
+		$('.hint textarea').bind('input propertychange', function() {
+			
+			phoneSpan.text($(this).val())
+			
+		})
+		
+		
+	})
+</script>
+
+<!--放弃活动-->
+<script>
+	
+	$(document).ready(function(){
+		
+		var itr
+		
+		
+		$('.del-alert i').bind({
+			
+			mousedown://这个是鼠标键，是你鼠标左击按下的的效果
+			function()
+			{
+			$(this).addClass('i-in')
+				
+			},
+			mouseup://这个是鼠标键，是你鼠标左击放开后的效
+			function()
+			{
+			$(this).removeClass('i-in')
+			},
+			mouseout:function(e) {
+				
+            	$(this).removeClass('i-in')
+        	}
+			
+		})
+		
+		
+		$('.fa-times-circle,.body-wrap,.fa-check-circle').click(function(e) {
+			
+            $('.sorting_1').eq(itr).removeClass('sorting_1-hover')
+			$('.del-alert').removeClass('del-alert-in')
+            $('.body-wrap').removeClass('body-wrap-in')
+			
+        })
+		
+		
+		$('.ds-bar-del').live('click',function(e) {
+			
+			itr=$(this).parents('tr').index()
+			$('.sorting_1').eq(itr).addClass('sorting_1-hover')
+			$('.del-alert').addClass('del-alert-in')
+            $('.body-wrap').addClass('body-wrap-in')
+			
+        })
+		
+		$('.row').hide()
+		
+	})
+	
+</script>
+
+
+<!-- Imported styles on this page -->
+
+	<!-- Bottom Scripts -->
+	<script src="js/jquery.dataTables.min.js"></script>
+
+
+	<!-- Imported scripts on this page -->
+	<script src="js/dataTables.bootstrap.js"></script>
+	
+</html>
